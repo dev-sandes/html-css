@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outras formatações</title>
+    <style>
+        body {
+            font: normal 18pt Arial;
+        }
+    </style>
+</head>
+<body>
+    <h1>Outras formatações</h1>
+    <h2>Código-Fonte</h2>
+    <p>Podemos escrever um comando de uma linguagem de programação <code>var msg = document.getElementById('msg')</code> usando a tag &lt;code&gt;</p>
+    <pre>
+        <code>
+    def fatorial(n):
+        if n == 0 or n == 1:
+            return 1
+        else:
+            resultado = 1
+        for i in range(2, n + 1):
+            resultado *= i
+        return resultado
+        </code>
+    </pre>
+    <h2>Citações Simples</h2>
+    <p>Podemos citar um texto <q>A vida é uma constante oscilação entre o tédio de possuir e a angústia de desejar.</q> usando a tag &lt;q&gt;</p>
+    <h2>Citações Completas</h2>
+    <p>Como diria John F. Kennedy: </p>
+    <blockquote cite="https://www.presidency.ucsb.edu/documents/remarks-nashville-the-90th-anniversary-convocation-vanderbilt-university?utm_source=chatgpt.com">
+        A educação é a arma mais poderosa que você pode usar para mudar o mundo.
+    </blockquote>
+    <h2>Abreviações</h2>
+    <p>Posso indicar uma frase completa a partir de abreviações <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr> usando a tag &lt;abbr&gt;</p>
+    <h2>Texto Invertido</h2>
+    <p>Podemos indicar frases palíndromos: <bdo dir="ltr">"Socorram-me, subi no ônibus em Marrocos"</bdo> no modo invertido <bdo dir="rtl">"Socorram-me, subi no ônibus em Marrocos"</bdo> usando a tag &lt;bdo&gt;</p>
+</body>
+</html>
